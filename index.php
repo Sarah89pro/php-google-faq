@@ -61,7 +61,6 @@ $faqs = [
         </div>
         <!--Menu and Button-->
         <div class="right-section">
-            <div class="menu"><i class="fas fa-ellipsis-h"></i></div>
             <button class="blue">Accedi</button>
         </div>
     </header>
@@ -77,7 +76,36 @@ $faqs = [
     </main>
 
     <!--Footer-->
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="left">
+                <ul class="link-footer">
+                    <li><a href="#">Google . </a></li>
+                    <li><a href="#">Tutto su Google . </a></li>
+                    <li><a href="#">Privacy . </a></li>
+                    <li><a href="#">Termini</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                
+                <div>
+                    <a href="#"><img class="chat" src="./img/chat.png" alt="chat"></a>
+                    <select>
+                        <option value="0">Italiano</option>
+                        <option value="1">Deutsch</option>
+                        <option value="2">Filipino</option>
+                        <option value="3">Polski</option>
+                        <option value="4">Français</option>
+                        <option value="5">Español</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+        </div>
+    </footer>
 
 
 
