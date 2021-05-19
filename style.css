@@ -15,7 +15,6 @@ body {
 /*UTILITY*/
 a {
     text-decoration: none;
-    color: #7F8286;
 }
 
 img {
@@ -74,6 +73,10 @@ header {
 .link li {
     font-size: 18px;
     font-weight: bold;
+}
+
+.link li a {
+    color: #7F8286;
 }
 
 .link li a:hover {
@@ -146,4 +149,8 @@ header {
     line-height: 24px;
     margin-bottom: 60px;
     color: #212121;
+}
+
+.container p a {
+    color: #1571cd;
 }
