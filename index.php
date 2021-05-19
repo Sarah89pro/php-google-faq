@@ -41,22 +41,50 @@ $faqs = [
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    <!--Link Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+
     <!--Link css-->
     <link rel="stylesheet" href="./style.css">
     <title>Google Faq</title>
 </head>
 <body>
+    <!--Header-->
+    <header>
+        <!--Logo and Link Lists-->
+        <div class="left-section">
+            <a href="#"><img class="logo" src="./img/LogoGoogle.png" alt="Google Logo"></a>
+            <a href="#"><h2>Privacy e termini</h2></a>
+            <ul class="link">
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li><a href="#">Domande frequenti</a></li>
+            </ul>
+        </div>
+        <!--Menu and Button-->
+        <div class="right-section">
+            <div class="menu"><i class="fas fa-ellipsis-h"></i></div>
+            <button class="blue">Accedi</button>
+        </div>
+    </header>
+
+    <!--Main-->
+    <main>
+        <?php foreach ($faqs as $content) {?>
+            <h2> <?php echo $content['question']; ?> </h2>
+            <p><?php echo $content['answer']; ?></p>
+        <?php } ?>
+    </main>
+
+    <!--Footer-->
+    <footer></footer>
 
 
 
-    <?php foreach ($faqs as $content) {?>
-        <h2> <?php echo $content['question']; ?> </h2>
-        <p><?php echo $content['answer']; ?></p>
-    <?php } ?>
 
-
-
-
+    
 
 </body>
 </html>
