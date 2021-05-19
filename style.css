@@ -47,6 +47,7 @@ header {
     right: 0;
     z-index: 1;
     padding: 5px 20px 10px 20px;
+    background-color: #fff;
     border-bottom: 1px solid #cbcbcb;
 }
 
@@ -131,3 +132,9 @@ header {
 
 
 /*MAIN*/
+.container {
+     width: 990px;
+    margin: 0 auto;
+    padding-top: 205px;
+    flex-grow: 1;
+}

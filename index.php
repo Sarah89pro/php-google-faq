@@ -72,10 +72,12 @@ $faqs = [
 
     <!--Main-->
     <main>
-        <?php foreach ($faqs as $content) {?>
-            <h2> <?php echo $content['question']; ?> </h2>
-            <p><?php echo $content['answer']; ?></p>
-        <?php } ?>
+        <div class="container">
+            <?php foreach ($faqs as $content) {?>
+                <h2> <?php echo $content['question']; ?> </h2>
+                <p><?php echo $content['answer']; ?></p>
+            <?php } ?>
+        </div>
     </main>
 
     <!--Footer-->
