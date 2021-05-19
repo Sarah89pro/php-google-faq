@@ -41,9 +41,6 @@ $faqs = [
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <!--Link Fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
-
     <!--Link css-->
     <link rel="stylesheet" href="./style.css">
     <title>Google Faq</title>
