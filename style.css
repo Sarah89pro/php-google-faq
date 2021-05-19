@@ -1,0 +1,21 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff ;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #3c4043;
+    font-size: 24px;
+}
+
+p {
+    color: #000000, opacity 87.0%;
+    font-size: 14px;
+}
