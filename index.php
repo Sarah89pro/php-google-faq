@@ -47,5 +47,14 @@ $faqs = [
 </head>
 <body>
     
+    <?php foreach ($faqs as $content) {
+        <h2> <?php echo $content['question']; ?> </h2>
+        <p><?php echo $content['answer']; ?></p>
+    <?php } ?>
+
+
+
+
+
 </body>
 </html>
